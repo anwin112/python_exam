@@ -3,6 +3,6 @@ pandas
 matplotlib
 seaborn
 nltk
-opencv-python
+opencv-python-headless
 pillow
 numpy
