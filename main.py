@@ -3,11 +3,15 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import random
-import nltk
 import cv2
 from PIL import Image, ImageEnhance
 import numpy as np
-nltk.download('all')
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from wordcloud import WordCloud
+nltk.download('punkt', quiet=True)
+nltk.download('stopwords', quiet=True)
 
 
 import random
